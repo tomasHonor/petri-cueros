@@ -107,9 +107,10 @@ text-align: center;
 .cuadros {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
-    margin: 0.5rem;
+    margin: 1rem;
     background-color: antiquewhite;
-    gap: 8px;
+    gap: 1rem;
+    padding: 4rem;
     
 
 }
@@ -124,4 +125,13 @@ text-align: center;
     margin-right: auto;
     color: #fdfff9;
 }
+.fondocuadros {
+    border: 6px solid rgb(130, 69, 9) ;
+    border-radius: 4px;
+}
 
+.footergeneral {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
